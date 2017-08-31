@@ -20,7 +20,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 
-/** A simple corenlp example ripped directly from the Stanford CoreNLP website using text from wikinews. */
+/**
+ * A simple corenlp example ripped directly from the Stanford CoreNLP website using text from wikinews.
+ */
 public class MainInfos {
 
     public static void main(String[] args) throws IOException {
@@ -43,10 +45,10 @@ public class MainInfos {
         // a CoreMap is essentially a Map that uses class objects as keys and has values with custom types
         List<CoreMap> sentences = document.get(SentencesAnnotation.class);
 
-        for(CoreMap sentence: sentences) {
+        for (CoreMap sentence : sentences) {
             // traversing the words in the current sentence
             // a CoreLabel is a CoreMap with additional token-specific methods
-            for (CoreLabel token: sentence.get(TokensAnnotation.class)) {
+            for (CoreLabel token : sentence.get(TokensAnnotation.class)) {
                 // this is the text of the token
                 String word = token.get(TextAnnotation.class);
                 // this is the POS tag of the token
