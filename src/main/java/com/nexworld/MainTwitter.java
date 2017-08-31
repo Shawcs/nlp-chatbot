@@ -16,7 +16,11 @@ import java.util.*;
  */
 public class MainTwitter {
 
-
+    /**
+     * @param args
+     * @throws IOException
+     * @throws TwitterException
+     */
     public static void main(String[] args) throws IOException, TwitterException {
 
 
