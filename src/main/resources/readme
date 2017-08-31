@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=stanford-english-corenlp-models-current.jar -DgroupId=edu.stanford.nlp -DartifactId=stanford-corenlp -Dversion=3.8.0 -Dclassifier=models-english -Dpackaging=jar
