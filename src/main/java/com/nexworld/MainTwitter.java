@@ -17,6 +17,8 @@ import java.util.*;
 public class MainTwitter {
 
     /**
+     * this is my function
+     *
      * @param args
      * @throws IOException
      * @throws TwitterException
